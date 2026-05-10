@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Seattle Area Game Artisans</title>
+    <link rel="canonical" href="https://s-a-g-a.community/" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Stack+Sans+Notch:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --dark-color: #333;
+        --light-color: #fff;
+      }
+      ::selection {
+        color: var(--dark-color);
+        background-color: var(--light-color);
+      }
+
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100dvh;
+        margin: 0;
+
+        font-display: fallback;
+        font-family: sans-serif;
+        font-size: max(1.2em, 1.6vw);
+        line-height: 1.5;
+        text-align: center;
+
+        color: var(--light-color);
+        background-color: var(--dark-color);
+        background-image: linear-gradient(
+          160deg,
+          rgba(51, 51, 51, 1) 50%,
+          rgba(33, 33, 33, 1) 100%
+        );
+      }
+
+      main {
+        margin: 1em;
+      }
+      main p {
+        width: 42ch;
+        max-width: 100%;
+        margin: 1.5em auto 2em;
+        font-weight: 300;
+      }
+      h1 {
+        margin-block: 0;
+        font-family: "Stack Sans Notch";
+        font-weight: 700;
+        font-display: swap;
+        line-height: 1.1;
+      }
+      a {
+        display: inline-block;
+        font-weight: 400;
+        padding: 0.8em 1em 0.75em;
+        line-height: 1;
+        text-decoration: none;
+        color: var(--dark-color);
+        background-color: var(--light-color);
+        transition: 0.2s ease-out transform;
+      }
+      a:hover,
+      a:focus {
+        transform: scale(1.02) translateY(-0.2em);
+      }
+      a:focus-visible {
+        outline: 2px solid var(--light-color);
+        outline-offset: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Seattle Area Game Artisans</h1>
+      <p>
+        is a community focused around the joy of creating games and other
+        artistic pursuits, free of heavy commercialization and genAI.
+      </p>
+      <a href="https://discord.gg/NU3dvWv3VU">👋 Join us on Discord</a>
+    </main>
+  </body>
+</html>
